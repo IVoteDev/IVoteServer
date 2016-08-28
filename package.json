@@ -1,0 +1,32 @@
+{
+  "name": "@ivote/ivoteAPI",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "^1.4.0",
+    "debug": "~2.2.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "mongoose": "^4.3.4",
+    "morgan": "~1.6.1",
+    "request": "^2.65.0",
+    "serve-favicon": "~2.3.0",
+    "shortid": "^2.2.4",
+    "textmagic-rest-client": "0.0.5",
+    "xml-writer": "^1.6.0",
+    "stats-lite":"2.0.3"
+  },
+  "files": [
+    "version.json",
+    "server.js",
+    "app.js",
+    "models",
+    "public",
+    "routes",
+    "views"
+  ]
+}
